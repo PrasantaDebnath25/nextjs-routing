@@ -12,6 +12,10 @@ export default function contact() {
       <Link href="/post">
           Go To Post Page
       </Link>
+
+      <Link href="/post/1">
+          Go To Post Page for page 1
+      </Link>
     </div>
   )
 }
