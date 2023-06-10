@@ -15,6 +15,11 @@ export default function Home() {
       <Link href="/contact" className={styles.main}>
         <a>Go to Contact Page</a>
       </Link>
+      
+      <Link href="/post">
+          Go To Post Page
+      </Link>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js tutorial</a>
