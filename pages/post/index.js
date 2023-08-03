@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 // import img from './img4.jpg';
 import { useRouter } from 'next/router';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default function postFunction({ posts }) {
   const router = useRouter()
