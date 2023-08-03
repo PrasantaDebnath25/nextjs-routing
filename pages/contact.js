@@ -4,21 +4,21 @@ import Head from 'next/head'
 
 export default function contact() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>My page title</title>
 
       </Head>
 
-      <main className={styles.main}>
+      <main className="main">
 
-        <div className={styles.grid}>
-          <a href="/post" className={styles.card}>
+        <div className="grid">
+          <a href="/post" className="card">
             <h3>Post Page for page 1 &rarr;</h3>
             <p>Go To Post Page for page 1</p>
           </a>
 
-          <a href="/post/1" className={styles.card}>
+          <a href="/post/1" className="card">
             <h3>Post Page &rarr;</h3>
             <p>Go To Post Page</p>
           </a>
