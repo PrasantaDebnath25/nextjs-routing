@@ -9,6 +9,7 @@ export default function postFunction({ posts }) {
   return (
     <ul>
       <h1>My Homepage</h1>
+      <button onClick={()=> router.back()}>Back</button>
       {/* <img src="/img4.jpg" alt="Vercel Logo" /> */}
       {/* <Image src="/img4.jpg" format="jpg" alt="Logo" width="200" height="200"/> */}
       {/* <Image src={img} alt="Logo" width={200} height={200} />  */}
