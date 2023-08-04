@@ -17,7 +17,7 @@ export default function postFunction({ posts }) {
         return (
           <li key={post.id}>
             <h3>
-              <div onClick={() => router.push('/post/' + post.id)}> {post.title}  </div>
+              <div onClick={() => router.push('/post/' + post.id)} className='cursor-pointer'> {post.title}  </div>
             </h3>
             <p> {post.body} </p>
           </li>
