@@ -19,7 +19,7 @@ export default function postFunction({ posts }) {
             <h3>
               <div onClick={() => router.push('/post/' + post.id)}> {post.title}  </div>
             </h3>
-            <p>  {post.body} </p>
+            <p> {post.body} </p>
           </li>
         );
       }
