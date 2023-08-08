@@ -5,14 +5,11 @@ import styles from '../styles/Home.module.css'
 
 export default function contact() {
   return (
-
-
-<div className={styles.container}>
-<Head>
+    <div className={styles.container}>
+      <Head>
         <title>My page title</title>
-        
+
       </Head>
-      
 
       <main className={styles.main}>
 
