@@ -13,13 +13,6 @@ export default function contact() {
         
       </Head>
       
-      {/* <Link href="/contact" className={styles.main}>
-        <a>Go to Contact Page</a>
-      </Link>
-      
-      <Link href="/post">
-          Go To Post Page
-      </Link> */}
 
       <main className={styles.main}>
 
